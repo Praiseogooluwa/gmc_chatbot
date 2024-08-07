@@ -1,7 +1,7 @@
-# OG_Therapeutic_Chatbot
+# GMCc_Chatbot
 This project involves developing an intelligent chatbot that uses Natural Language Processing (NLP) techniques to understand and respond to user queries then we use tensor flow to build and train the NLP model on a data set. Additionally, implementing sentiment analysis and entity recognition to create a robust and interactive chatbot.
 
-## BUILDING INTELLIGENT CHATBOT
+## BUILDING GMC CHATBOT
 
 - `Sentiment analysis`: Sentiment analysis is the process of determining the emotional tone behind a series of words, used to understand attitudes, opinions, and emotions; it includes positive, negative, or neutral. 
 
@@ -14,10 +14,9 @@ This project involves developing an intelligent chatbot that uses Natural Langua
 - `Chatbot`: The primary goal of a chatbot is to understand user input, process it using natural language understanding (NLU) techniques, and generate appropriate responses. Depending on their complexity, chatbots can perform a wide range of tasks, including answering questions, providing customer support, assisting with transactions, and even engaging in casual conversation.
 
 ## ABOUT THE DATA
-The dataset available is a comprehensive collection of conversations related to mental health. It encompasses various conversation types, including basic exchanges, frequently asked questions about mental health, classical therapy discussions, and general advice given to individuals facing anxiety and depression.
-So we are training the chatbot model to emulate a therapist. We are building chatbots capable of providing emotional support to individuals experiencing anxiety and depression. 
+The dataset available is a comprehensive collection of conversations related to educational consultation. It encompasses various conversation types, including basic exchanges, and frequent asked question. 
 
-`Dataset Source`: https://www.kaggle.com/code/jocelyndumlao/chatbot-for-mental-health-conversations/input
+`Dataset Source`: My Brain and series of questions from people
 
 STEPS TAKEN
 ---
@@ -42,4 +41,6 @@ STEPS TAKEN
 
 8. `Deployment`: Deploy your chatbot to a suitable platform or environment where users can interact with it. Streamlit was used to deploy the chatbot.
 
-***Two environments were created; one containing the chatbot algorithm `Intelligent_chatbot.py` and the other contains the deployment of the chatbot using Streamlit app `chatbot_app.py`***
+***Two environments were created; one containing the chatbot algorithm `bot.py` and the other contains the deployment of the chatbot using Streamlit app `my_bot.py`***
+
+WEB APP LINK: https://gmc-bot-praise.streamlit.app
