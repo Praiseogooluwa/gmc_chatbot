@@ -1,0 +1,307 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi", "Hello", "Hey", "Hi there", "Hello there", "Good morning", "Good afternoon", "Good evening"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! How can I help you?", "Hey! What can I do for you?", "Good day! How can I assist?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Talk to you later", "Farewell"],
+        "responses": ["Goodbye! Have a great day!", "See you later!", "Talk to you soon!", "Farewell!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "I appreciate it", "Thanks a lot", "Thank you very much"],
+        "responses": ["You're welcome!", "Happy to help!", "Anytime!", "You're very welcome!"]
+      },
+      {
+        "tag": "enrollment",
+        "patterns": ["How do I enroll in a course?","How to enrol for a course?", "how to enrol for a course", "What is the enrollment process?", "How can I sign up for a course?", "How to enroll?", "Course registration process?"],
+        "responses": [
+          "To enroll in a course, go to the Courses section, select the course you're interested in, and click on the Enroll button.",
+          "You can enroll in a course by navigating to the Courses page, choosing your desired course, and clicking the Enroll button.",
+          "Visit the Courses page, select the course you want, and click on Enroll to register."
+        ]
+      },
+      {
+        "tag": "course_availability",
+        "patterns": ["What courses are available?", "Which courses do you offer?", "Can you list the available courses?", "What programs do you have?", "List of courses?"],
+        "responses": [
+          "We offer a variety of courses in technology and coding. You can view the full list on our Courses page.",
+          "Our available courses include Web Development, Data Science, Cybersecurity, and more. Check out the Courses section for more details.",
+          "Visit the Courses page to see all the programs we offer."
+        ]
+      },
+      {
+        "tag": "course_content",
+        "patterns": ["What will I learn in the Web Development course?", "Can you tell me about the Data Science course?", "What topics are covered in the Cybersecurity course?", "Course curriculum for Web Development?", "What does the Data Science course include?"],
+        "responses": [
+          "In the Web Development course, you'll learn HTML, CSS, JavaScript, and frameworks like React and Node.js.",
+          "The Data Science course covers Python programming, data analysis, machine learning, and data visualization.",
+          "Our Cybersecurity course includes network security, ethical hacking, encryption, and risk management.",
+          "The Web Development course covers front-end and back-end technologies including HTML, CSS, JavaScript, and more."
+        ]
+      },
+      {
+        "tag": "class_schedule",
+        "patterns": ["What is the class schedule?", "When do classes start?", "What are the class timings?", "Class start times?", "Schedule for classes?"],
+        "responses": [
+          "Class schedules vary by course. You can find the specific schedule for your course on the course page.",
+          "Classes typically start at the beginning of each month. Check the course details for exact timings.",
+          "Please refer to the course page for detailed class schedules."
+        ]
+      },
+      {
+        "tag": "payment_methods",
+        "patterns": ["What payment methods do you accept?", "How can I pay for the course?", "What are the payment options?", "Accepted payment methods?", "How to pay for courses?"],
+        "responses": [
+          "We accept credit/debit cards, PayPal, and bank transfers. You can find more information on the Payments page.",
+          "Payment methods include credit/debit cards, PayPal, and bank transfers. Details are available on our Payments page.",
+          "You can pay using credit cards, PayPal, or bank transfers."
+        ]
+      },
+      {
+        "tag": "refund_policy",
+        "patterns": ["What is the refund policy?", "Can I get a refund?", "How does the refund process work?", "Refund procedure?", "Course refund policy?"],
+        "responses": [
+          "Our refund policy allows you to request a refund within 14 days of enrollment if you're not satisfied with the course.",
+          "You can get a refund within the first 14 days of enrollment. Please contact support for assistance with the refund process.",
+          "Refunds are available within 14 days of course enrollment. Contact support for more details."
+        ]
+      },
+      {
+        "tag": "technical_support",
+        "patterns": ["I am facing technical issues", "The website is not working", "I need help with a technical problem", "Technical issue", "Site not working"],
+        "responses": [
+          "I'm sorry to hear that. Please describe the issue, and I'll do my best to help you.",
+          "Technical issues can be frustrating. Can you provide more details about the problem?",
+          "Please let us know more about the technical issue you're facing so we can assist you better."
+        ]
+      },
+      {
+        "tag": "contact_support",
+        "patterns": ["How can I contact support?", "What is the support email?", "How do I reach customer service?", "Customer support contact?", "Support email address?"],
+        "responses": [
+          "You can contact our support team by emailing support@gomycode.com.",
+          "For any assistance, please email our support team at support@gomycode.com.",
+          "Reach out to our support team at support@gomycode.com for any help."
+        ]
+      },
+      {
+        "tag": "profile_update",
+        "patterns": ["How do I update my profile?", "Can I change my personal information?", "How can I edit my profile details?", "Update profile information?", "Edit profile?"],
+        "responses": [
+          "To update your profile, go to the Account Settings page and make the necessary changes.",
+          "You can change your personal information by navigating to Account Settings and editing your profile details.",
+          "Visit the Account Settings page to update your profile information."
+        ]
+      },
+      {
+        "tag": "course_completion",
+        "patterns": ["How do I complete a course?", "What is required to complete a course?", "Course completion requirements?", "Finish course", "Complete course"],
+        "responses": [
+          "To complete a course, you need to finish all the modules, assignments, and pass the final assessment.",
+          "Course completion requires finishing all lessons, assignments, and passing the final project or exam.",
+          "Ensure you complete all required modules and assessments to finish the course."
+        ]
+      },
+      {
+        "tag": "certificate",
+        "patterns": ["Do I get a certificate?", "Is there a certificate upon completion?", "Certificate after course", "Completion certificate", "Will I receive a certificate?"],
+        "responses": [
+          "Yes, you will receive a certificate upon successful completion of the course.",
+          "A completion certificate is awarded once you finish all course requirements.",
+          "You will receive a certificate after completing the course and passing all assessments."
+        ]
+      },
+      {
+        "tag": "course_duration",
+        "patterns": ["How long is the course?", "Course duration", "Length of the course", "How many weeks is the course?", "Course timeframe"],
+        "responses": [
+          "The duration of each course varies. You can find specific duration details on the course page.",
+          "Course durations range from a few weeks to several months. Check the course details for exact information.",
+          "Refer to the course page for the duration and timeframe of your specific course."
+        ]
+      },
+      {
+        "tag": "course_prerequisites",
+        "patterns": ["Are there any prerequisites?", "Course prerequisites", "What do I need to know before enrolling?", "Requirements before course", "Pre-course requirements"],
+        "responses": [
+          "Prerequisites vary by course. Check the course page for specific requirements before enrolling.",
+          "Some courses may have prerequisites. Please refer to the course details for more information.",
+          "You can find any required knowledge or skills listed on the course description page."
+        ]
+      },
+      {
+        "tag": "materials",
+        "patterns": ["What materials are provided?", "Course materials", "Do I get textbooks?", "Are materials included?", "Materials for the course"],
+        "responses": [
+          "Course materials are provided online and include lectures, readings, and assignments.",
+          "All necessary materials will be available on the course platform, including videos, readings, and project files.",
+          "You will have access to all required materials through the course dashboard."
+        ]
+      },
+      {
+        "tag": "course_support",
+        "patterns": ["Is there support during the course?", "Can I get help with assignments?", "Course assistance", "Help during course", "Support while taking the course"],
+        "responses": [
+          "Yes, our instructors and support team are available to help you with any questions during the course.",
+          "You can reach out to your instructors or the support team for assistance with assignments and course material.",
+          "Support is available throughout the course to help you succeed."
+        ]
+      },
+      {"tag": "internship",
+      "patterns": ["Are internships available?", "Can I get an internship?", "Do you offer internships?", "Internship opportunities", "How to apply for internships?"],
+      "responses": [
+        "Yes, we offer internship opportunities. Please check our Internships page for more details and application information.",
+        "Internships are available for students who excel in their courses. Visit the Internships section for more information.",
+        "You can apply for internships through the Internships page on our website."
+      ]
+    },
+    {
+      "tag": "job_placement",
+      "patterns": ["Do you offer job placement?", "Job placement assistance", "Can you help me find a job?", "Job placement support", "Employment assistance"],
+      "responses": [
+        "Yes, we offer job placement assistance to help you find employment after completing your course.",
+        "Our career services team provides job placement support. Check the Career Services page for more information.",
+        "We assist with job placement through our network of partner companies and career services."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": ["What are career services?", "Do you offer career services?", "Career support", "Help with career planning", "Career services details"],
+      "responses": [
+        "Our career services include resume building, interview preparation, and job placement assistance.",
+        "We offer various career services to help you succeed in your job search. Visit the Career Services page for more details.",
+        "Career services are available to all students and include support with job applications and interviews."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Are there scholarships available?", "Can I apply for a scholarship?", "Scholarship opportunities", "Do you offer scholarships?", "How to get a scholarship?"],
+      "responses": [
+        "Yes, we offer scholarships for eligible students. Please visit the Scholarships page for more details and application instructions.",
+        "Scholarship opportunities are available. Check the Scholarships section on our website to learn more.",
+        "You can apply for scholarships through the Scholarships page on our website."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": ["Is financial aid available?", "How can I get financial aid?", "Financial aid options", "Do you offer financial aid?", "Financial assistance"],
+      "responses": [
+        "Financial aid options are available for eligible students. Visit the Financial Aid page for more information.",
+        "You can apply for financial aid through our Financial Aid page. Check your eligibility and apply online.",
+        "Financial assistance is available. Please refer to the Financial Aid section on our website."
+      ]
+    },
+    {
+      "tag": "transfer_credits",
+      "patterns": ["Can I transfer credits?", "Credit transfer policy", "Transfer credits from another school", "Do you accept transfer credits?", "How to transfer credits?"],
+      "responses": [
+        "We accept transfer credits from accredited institutions. Check our Transfer Credits policy for more details.",
+        "To transfer credits, please submit your transcripts for evaluation. Visit the Transfer Credits page for instructions.",
+        "You can transfer credits from other institutions. Contact our admissions office for more information."
+      ]
+    },
+    {
+      "tag": "exam_scheduling",
+      "patterns": ["How do I schedule an exam?", "Exam scheduling process", "When are exams scheduled?", "Schedule my exam", "Exam dates"],
+      "responses": [
+        "You can schedule your exams through the Exam Scheduling section on your dashboard.",
+        "Exam dates and scheduling options are available on the course page. Please follow the instructions to book your exam.",
+        "To schedule an exam, visit the Exam Scheduling page and select your preferred date and time."
+      ]
+    },
+    {
+      "tag": "exam_prep",
+      "patterns": ["How do I prepare for exams?", "Exam preparation tips", "Study resources for exams", "Preparing for exams", "Exam prep help"],
+      "responses": [
+        "We provide study guides and practice exams to help you prepare. Check the Exam Prep section on your dashboard.",
+        "Use the study materials and practice tests available on the course page to prepare for your exams.",
+        "Our Exam Prep resources include study guides, practice exams, and tips from instructors."
+      ]
+    },
+    {
+      "tag": "extracurricular_activities",
+      "patterns": ["What extracurricular activities are available?", "Do you have clubs and organizations?", "Extracurricular opportunities", "Clubs and societies", "Activities outside of class"],
+      "responses": [
+        "We offer a variety of extracurricular activities including coding clubs, hackathons, and networking events.",
+        "Join our clubs and organizations to enhance your learning experience. Check the Extracurricular Activities page for more details.",
+        "Extracurricular opportunities include clubs, competitions, and events. Visit our Extracurricular Activities section for more information."
+      ]
+    },
+    {
+      "tag": "mentor_program",
+      "patterns": ["Do you have a mentor program?", "How can I get a mentor?", "Mentorship opportunities", "Mentor program details", "Can I get a mentor?"],
+      "responses": [
+        "Yes, we offer a mentor program to support students. Visit the Mentor Program page to learn more and apply.",
+        "Mentorship opportunities are available. Check the Mentor Program section for details on how to get a mentor.",
+        "You can apply for a mentor through our Mentor Program. Visit the Mentor Program page for more information."
+      ]
+    },
+    {
+      "tag": "networking_events",
+      "patterns": ["Are there networking events?", "Networking opportunities", "How can I attend networking events?", "Do you host networking events?", "Upcoming networking events"],
+      "responses": [
+        "Yes, we host regular networking events for students. Check the Events page for upcoming networking opportunities.",
+        "Networking events are listed on our Events page. Join us to connect with industry professionals and peers.",
+        "You can attend our networking events by registering on the Events page."
+      ]
+    },
+    {
+      "tag": "portfolio_reviews",
+      "patterns": ["Do you offer portfolio reviews?", "Can someone review my portfolio?", "Portfolio feedback", "How to get my portfolio reviewed?", "Portfolio review service"],
+      "responses": [
+        "Yes, we offer portfolio reviews. Submit your portfolio through the Portfolio Review section for feedback.",
+        "Our instructors provide portfolio reviews. Visit the Portfolio Review page to submit your work for evaluation.",
+        "You can get your portfolio reviewed by submitting it on the Portfolio Review page."
+      ]
+    },
+    {
+      "tag": "alumni_network",
+      "patterns": ["Is there an alumni network?", "How can I join the alumni network?", "Alumni network details", "Connecting with alumni", "Alumni association"],
+      "responses": [
+        "Yes, we have an alumni network. Visit the Alumni Network page to join and connect with fellow graduates.",
+        "Join our alumni network through the Alumni Network section to stay connected with other graduates.",
+        "Our alumni network offers various benefits and networking opportunities. Check the Alumni Network page for more information."
+      ]
+    },
+    {
+      "tag": "library_access",
+      "patterns": ["Do I have access to a library?", "Library resources", "How can I access the library?", "Online library", "Library access details"],
+      "responses": [
+        "Yes, students have access to our online library. Visit the Library Resources page for more information.",
+        "Our online library includes a wide range of resources. Check the Library Access page to explore.",
+        "You can access the library through the Library Resources section on your dashboard."
+      ]
+    },
+    {
+      "tag": "technical_requirements",
+      "patterns": ["What are the technical requirements?", "Technical requirements for courses", "Do I need any specific software?", "Hardware and software requirements", "Course technical requirements"],
+      "responses": [
+        "Technical requirements vary by course. Check the course page for specific hardware and software needs.",
+        "You will need a computer with internet access and specific software as listed on the course page.",
+        "Refer to the course description for detailed technical requirements."
+      ]
+    },
+    {
+      "tag": "mobile_app",
+      "patterns": ["Do you have a mobile app?", "Can I access courses on mobile?", "Mobile app availability", "Is there an app?", "How to download the mobile app?"],
+      "responses": [
+        "Yes, we have a mobile app available for both iOS and Android. Download it from the App Store or Google Play.",
+        "You can access our courses through our mobile app. Download it from your app store.",
+        "Our mobile app is available on the App Store and Google Play for convenient access to your courses."
+      ]
+    },
+    {
+      "tag": "accessibility",
+      "patterns": ["Is your platform accessible?", "Accessibility features", "How do you support students with disabilities?", "Accessibility options", "Platform accessibility"],
+      "responses": [
+        "Our platform is designed to be accessible to all students, including those with disabilities. Visit our Accessibility page for more details.",
+        "We offer various accessibility features to support students with disabilities. Check the Accessibility section for more information.",
+        "Accessibility options are available to ensure an inclusive learning experience for all students."
+      ]
+    }
+  ]
+}
